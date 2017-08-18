@@ -39,24 +39,24 @@
             </fieldset>
             <fieldset>
               <legend>Тип жилья:</legend>
-                <ul class="type-of-hostel">
-                  <li class="filter-option">
+              <ul class="type-of-hostel">
+                <li class="filter-option">
                     <input class="filter-checkbox" type="checkbox" name="hostel" checked>
                   Гостиница
-                  </li>
-                  <li class="filter-option">
+                </li>
+                <li class="filter-option">
                     <input class="filter-checkbox" type="checkbox" name="motel" checked>
                   Мотель
-                  </li>
-                  <li class="filter-option">
+                </li>
+                <li class="filter-option">
                     <input class="filter-checkbox" type="checkbox" name="apartment" checked>
                   Апартаменты
-                  </li>
-                </ul>
+                </li>
+              </ul>
             </fieldset>
             <fieldset>
+              <legend>Стоимость в сутки(р)</legend>
               <input class="cost-per-day" type="range" min="0" max="3000">
-              <b>Стоимость в сутки</b>
             </fieldset>
             <button type="submit" class="filter-button" Показать</button>
             </form>
@@ -64,43 +64,56 @@
           <section class="result-filter">
           <b>Найдено:3</b>
           <ul class="sorting">
-            <li class="choose">По цене</li>
+            <li class="active">По цене</li>
             <li>По типу</li>
             <li>По рейтингу</li>
           </ul>
       </section>
-      <section class="results">
+      <section class="results-amara">
         <img src="" width="" height="" alt="Отель Амара">
-        <p>Amara resort and spa</p>
+        <h2>Amara resort and spa</h2>
         <span class="hostel">Гостиница</span>
         <span class="price">От 4000 р.</span>
         <div class="stars">
+          <span class="four-star"></span>
           <p class="rating">Рейтинг:8.5</p>
         </div>
-        <button type="button" class="more">Подробнее</button>
-        <button type="button" class="booking">Забронировать</button>
+        <ul class="booking-more">
+          <li class="more"><a href=""></a>Подробнее</li>
+          <li class="booking"><a href=""></a>Забронировать</li>
+        </ul>
+      </section>
         <hr>
+      <section class="results-desert"
         <img src="" width="" height="" alt="Отель Дезерт">
-        <p>Desert quail inn</p>
+        <h2>Desert quail inn</h2>
         <span class="hostel">Мотель</span>
         <span class="price">От 3000 р.</span>
         <div class="stars">
+          <span class="three-star"></span>
           <p class="rating">Рейтинг:8.9</p>
         </div>
-        <button type="button" class="more">Подробнее</button>
-        <button type="button" class="booking">Забронировать</button>
+        <ul class="booking-more">
+          <li class="more"><a href=""></a>Подробнее</li>
+          <li class="booking"><a href=""></a>Забронировать</li>
+        </ul>
+      </section>
         <hr>
+      <section class="diablo">
         <img src="" width="" height="" alt="Отель Дъябло">
-        <p>Villas at poco diablo</p>
+        <h2>Villas at poco diablo</h2>
         <span class="hostel">Апартаменты</span>
         <span class="price">От 2000 р.</span>
-        <div class="hotel-stars-2">
+        <div class="stars">
+          <span class="two-star"></span>
           <p class="rating">Рейтинг:9.2</p>
         </div>
-        <button type="button" class="more">Подробнее</button>
-        <button type="button" class="booking">Забронировать</button>
-        <hr>
+        <ul class="booking-more">
+          <li class="more"><a href=""></a>Подробнее</li>
+          <li class="booking"><a href=""></a>Забронировать</li>
+        </ul>
       </section>
+        <hr>
     </main>
     <footer class="footer">
       <p class="hashtag">
@@ -116,7 +129,7 @@
           <a class="html-academy-footer-logo" href="http://www.htmlacademy.ru">
             <img src="logo-htmlacademy" width="" height="" alt="Лого разработчика">
           </a>
-        </p>
+      </p>
     </footer>
   </body>
   </html>
